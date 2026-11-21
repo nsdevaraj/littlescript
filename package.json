@@ -1,0 +1,18 @@
+{
+  "name": "@littlea/littlescript",
+  "version": "0.1.0",
+  "description": "LittleScript frontend: TS-subset diagnostics + closure lowering in front of AssemblyScript (Epic 1.5)",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "bin": {
+    "littlescript": "src/cli.mjs"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "license": "(MIT OR Apache-2.0)",
+  "dependencies": {
+    "assemblyscript": "^0.28.19",
+    "typescript": "^5.6.0"
+  }
+}
